@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+}
+.container h1 {
+  text-align: center;
+}
+.container h2,
+.container #links-container,
+.container #preferences,
+.container #actions {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button.export-button {
+  background-color: #dff2d5;
+  color: #fff;
+}
+button.export-button:hover {
+  background-color: #80abdd;
+}
+button.random-button {
+  background-color: #c9cbe2;
+  color: #fff;
+}
+button.random-button:hover {
+  background-color: #f2dfa5;
+}
+
+/*# sourceMappingURL=popup.css.map */

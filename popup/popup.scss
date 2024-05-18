@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+
+  h1 {
+    text-align: center;
+  }
+
+  h2,
+  #links-container,
+  #preferences,
+  #actions {
+    margin-top: 20px; // Consistent margin
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  // Use classes for specific buttons
+  &.export-button {
+    background-color: #dff2d5;
+    color: #fff;
+
+    &:hover {
+      background-color: #80abdd;
+    }
+  }
+
+  &.random-button {
+    background-color: #c9cbe2;
+    color: #fff;
+
+    &:hover {
+      background-color: #f2dfa5;
+    }
+  }
+}
