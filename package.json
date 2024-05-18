@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@types/node": "^20.12.12"
+  },
+  "dependencies": {
+    "sass": "^1.77.2"
   }
 }
