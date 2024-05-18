@@ -11,7 +11,12 @@ var BackgroundManager = /** @class */ (function () {
     // Function to update the extension UI
     BackgroundManager.prototype.updateUI = function () {
         // Send messahe to the UI (popup) with updated link lists
-        chrome.runtime.sendMessage({ action: "updateUI", videoLinks: this.videoLinks, imageLinks: this.imageLinks, this: .outsideLinks, this: .outsideLinks });
+        chrome.runtime.sendMessage({
+            action: "updateUI",
+            videoLinks: this.videoLinks,
+            imageLinks: this.imageLinks,
+            outsideLinks: this.outsideLinks,
+        });
     };
     // function to add a link of specific type
     BackgroundManager.prototype.addLink = function (link, linkType) {
