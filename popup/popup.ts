@@ -1,4 +1,6 @@
 // Define types for message passing
+import * as chrome from 'chrome';
+
 interface LinkMessage {
     action: string;
     link: string;
