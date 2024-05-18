@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Collector</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Link Collector</h1>
+        <div id="links-container">
+            <!-- Display collected links here -->
+        </div>
+        <div id="preferences">
+            <h2>Preferences</h2>
+            <label>
+                <input type="checkbox" id="images-checkbox" checked>
+                Images
+            </label>
+            <label>
+                <input type="checkbox" id="videos-checkbox" checked>
+                Videos
+            </label>
+            <label>
+                <input type="checkbox" id="links-checkbox" checked>
+                Links
+            </label>
+        </div>
+        <div id="actions">
+            <button id="export-button">Export Links</button>
+            <button id="random-button">Random Link</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
